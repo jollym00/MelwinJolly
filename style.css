@@ -303,9 +303,8 @@ h5::after {
   float: left;
   height: 100%;
   z-index: 1010101010;
-  text-align: center;
+  text-align: center;  
 }
-
 .about-text1 {
 	width: 100%;
 	padding-top: 2.5%;
