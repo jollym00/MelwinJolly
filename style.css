@@ -5,6 +5,7 @@
     width: device-width;
     zoom: 1.0;
 }
+html, body {width: 100vw; height: 100vh;}
 .navbar{
 	 width: 85%;
 	 height: 15%;
