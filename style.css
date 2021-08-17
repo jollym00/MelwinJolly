@@ -5,6 +5,10 @@
     width: device-width;
     zoom: 1.0;
 }
+body {width:100%;
+    min-width:1000px;
+    height:auto;
+}
 .navbar{
 	 width: 85%;
 	 height: 15%;
