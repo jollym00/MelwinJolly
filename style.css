@@ -178,6 +178,8 @@ h5::after {
   /* This is about section styling  */
 .background{
 	width: 100%;
+	
+    height: 100vh;	
 	background: black;
     margin: auto;
 }
@@ -208,6 +210,7 @@ h5::after {
     flex-basis: 0;
 }
 .about-text h1 {
+	padding-top:30px;
     font-size: 4rem;
     margin-bottom: 20px;
   }
