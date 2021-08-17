@@ -290,7 +290,7 @@ h5::after {
 }
 #col-1 {
   position: relative;
-  width: 40%;
+  width: 50%;
   float: left;
   height: 100%;
   z-index: 1010101010;
@@ -299,7 +299,7 @@ h5::after {
 
 #col-2 {
   position: relative;
-  width: 40%;
+  width: 50%;
   float: left;
   height: 100%;
   z-index: 1010101010;
