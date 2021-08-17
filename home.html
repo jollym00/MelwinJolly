@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Resume Page" />
+    <meta name="keywords" content="HTML5, tags" />
+    <meta name="author" content="Melwin Jolly" />
+    <title>Melwin Jolly || SWE Student</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
+  <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <section class="header">
+      <div class="bar"> extra &nbsp;&nbsp; space <nav class="navbar">
+          <button type="button" onclick="window.location.href='#ABOUTME'">About Me</button>
+          <button type="button" onclick="window.location.href='MelwinJolly_resume.pdf'">My Resume</button>
+          <button type="button" onclick="window.location.href='#EAE'">Education and Experience</button>
+          <button type="button" onclick="window.location.href='#tasks'">University Projects</button>
+          <button type="button" onclick="window.location.href='#connection'">Contacts</button>
+        </nav>
+      </div>
+      <div class="content">
+        <h5 class="name"> Melwin Jolly</h5>
+        <h1 class="SWE">SOFTWARE <br>ENGINEERING <br>STUDENT </h1>
+        <small class="subtitle">HTML - CSS - C++ - JavaScript - C# - SQL - VHDL - MATLAB - Ruby</small>
+      </div>
+    </section>
+    <section id="ABOUTME" class="background">
+      <section class="about">
+        <div class="container">
+          <img class="circular--square" src="Picture1.jpg" alt="profile picture of Melwin" />
+          <div class="about-text">
+            <h1>Who Am I?</h1>
+            <p>My name is Melwin Jolly. I am currently studying Bachelor of Software Engineering and I am in my third year of my degree. Currently I am so working at Monash Health Hospital as Admintrative Officers <br>
+              <br> I'm amped up for enhancing thought and strategies for developing programs and machine that can help individuals and take out human error. <br>
+              <br> After moving from school to school and from jobs to jobs, I have set my life for career that I like, the both area that I wanted to learn was about technologies and health sector, which lead me into software engineering degree. While my passion for technology and the health sector grew over year of working at Monash Health and studying at Swinburne University of Technology, which showed me the way of integrating technology into health sector to improve patient care and to eliminate human error. I am currently in my 3rd year degree and I have started to think about developing and researching ways that I help doctors, nurse, manager and others to improve patient care. Software Engineering and Health sector is where my passion and ambition lie.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+	<section id="EAE" class="backgroundyear2">
+      <h1>Education and Experience</h1>
+      <div class="about-text4">
+        <p>Currently I am studying my Bachelor of Software Engineering (full-time) at Swinburne University of Technology and Bachelor of Theology (part-time) at the University of Divinity.<br>
+		I have completed my year 12 in the 2018 December at Maranatha Christian School in Melbourne. <br><br>
+		
+		I have work various jobs from being a paper boy in my childhood time to an Admintrative Officer. In 2010 I got my first job as a paper boy, then I went to work as 
+		Assistant Instructor at Chikara Karate Studio. I started their as trainee first then I have the chance to take some of the junior class. <br><br>After that job I would in 
+		Celebrations Catering Services; As this was start up I had to do various tasks that included: cooking, serving, driver and many more. From their I started working as Food Service 
+		Assistant (FSA) at Monash Health. This job gave good idea of a hospital environment. I had the opporunity work in various hostipal around South Eastern Suburbs of Victoria.
+		<br><br>
+		Currently I am working as Admintrative Officer at Monash Health. This job gave me various experience like: Admintration work in a Aged Care, Admin Team Leader, Covid-19 Screening and Covid-19 Admin, 
+		concierge and CVMS support. 
+		
+
+		
+            
+        </p>
+		<img src="eae.jpg" class="EWB2" width="75%"/>
+      </div>
+	  </section>
+    <section id="tasks" class="unititle">
+      <div class="content">
+        <h1 class="title">University Tasks</h1>
+        <span style="display:inline-block; width: 100%;"></span>
+        <h2>Swinburne University of Technology</h2>
+        <span style="display:inline-block; width: 100%;"></span>
+        <small>
+          <b>Due to Plagiarism and other copyright issues I won't able share my code in my GitHub</b> </small>
+        <span style="display:inline-block; width: 100%;"></span>
+        <nav>
+          <button type="button" class="1" onclick="window.location.href='#1'">Year 1</button>
+          <button type="button" class="2" onclick="window.location.href='#2'">Year 2</button>
+          <button type="button" class="3" onclick="window.location.href='#3'">Year 3</button>
+        </nav>
+      </div>
+    </section>
+    <section id="1" class="backgroundyear1">
+      <section class="about">
+        <div class="container">
+          <img src="EWB.jpg" class="EWB" />
+          <div class="about-text">
+            <h1 class="about-text">Year 1</h1>
+            <p class="about-text">During my first year, I was learning about core understanding of Engineering. My unit were basically Physics, Mathematics, Engineering Materials, Mechanics of Structures and Designing unit. <br>
+              <br>My designing unit was a porject based unit that works with Engineer Without Borders (EWB) the image on the side is a design my group built for filter water using heats and sunlight
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="2" class="backgroundyear1">
+      <section class="about">
+        <div class="container">
+          <img class="EWB" src="project.jpg" />
+          <div class="about-text">
+            <h1>Year 2 (COVID-19)</h1>
+            <p >My second year I learned various coding langauges. These language includes: C++ (Software Development and Embedded Microcontrollers, C#, VHDL, Ruby, HTML, CSS and JavaScript. The images beside is are some of the tasks that I have worked on. <br>
+              <br> This first one is pragram that draws shapes; This is don using C#. The second one is is music player that is done using Ruby(GUI). The last one is a website that is built using SQL, JavaScript, CSS and HTML. For more press the arrow below.
+            </p>
+          </div>
+        </div>
+      </section>
+      <a href="#Moreyear2" class="scroll-down">&#9660;</a>
+    </section>
+    <section id="Moreyear2" class="backgroundyear2">
+      <h1>More about my 2nd year</h1>
+      <section>
+	  <div id="col-1">
+          <div class="centered">
+            <video width="600" height="450" controls>
+              <source src="E4.mp4" type="video/mp4">
+            </video>
+            <h2>Music Box</h2>
+            <span style="display:inline-block; width: 100%;"></span>
+            <p>This is project that I worked on that was making a music box using C++, a speaker, component similar to an Arduino</p>
+          </div>
+        </div>
+        <div id="col-2">
+          <div class="centered">
+            <video width="600" height="450" controls>
+              <source src="E51.mp4" type="video/mp4">
+            </video>
+            <h2>Snake Game</h2>
+            <span style="display:inline-block; width: 100%;"></span>
+            <p>This is project that I worked on that was making a music box using C++, a led lights, component similar to an Arduino</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="3" class="backgroundyear1">
+      <section class="about">
+        <div class="container">
+          <img src="app.jpg" class="EWB" />
+          <div class="about-text">
+            <h1 class="about-text">Year 3 (COVID-19) Current</h1>
+            <p class="about-text">Currently I am in semester of my 3rd year. In semester one I have leanred about user centre design, more on VHDL coding, another Maths unit that focus on using MATLAB and R and learned about Data Structures and Patterns <br>
+              <br> I have also learned about User-Centred Design. Beside in the App that my group design this year to track people
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="connection" class="backgroundyear2">
+      <h1>Have Chat with me?</h1>
+      <div class="about-text1">
+        <p>To Recruiter who are looking to hire me, just send a Hi! <br> And people who wants to collaborate with me just email me or message me on Linkedin <br>
+          <br> All of the following links will lead to some method of contacting me! <br>
+          <br>
+          <a href="mailto:melwinjolly@gmail.com">
+            <img src="gmail.jpg" class="EWB1"/>
+          </a>
+          <a href="https://www.linkedin.com/in/melwin-jolly/">
+            <img src="linkedin.jpg" class="EWB1"/>
+          </a>
+        </p>
+      </div>
+	  </section>
+  </body>
+</html>
